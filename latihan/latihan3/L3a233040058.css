@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: comic sans MS;
+    font-size: 60px;
+    color: darkblue;
+}
+
+h3 {
+    letter-spacing: -1px;
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+p {
+    text-align: justify
+}
