@@ -16,7 +16,7 @@
             width: 600px;
             height: 600px;
             border: 10px solid black;
-            background-color: #ddd;
+            background-color: greenyellow;
             margin: 50px auto;
             display: flex;
             justify-content: space-evenly;
@@ -27,8 +27,10 @@
         .box {
             width: 150px;
             height: 150px;
-            background-color: aquamarine;
-            border: 1px solid black;
+            background-color: rgba(255, 255, 255, 0.14);
+            box-shadow: 2px 2px 2px black;
+            backdrop-filter: blur(90px);
+            /* border: 1px solid black; */
 
         }
     </style>
@@ -36,7 +38,9 @@
 <body>
     <div class="container">
 
-        <div class="box" data-aos="fade-down" data-aos-delay="300"></div>
+        <div class="box" data-aos="fade-down" data-aos-delay="300">
+            <h1>haloo</h1>
+        </div>
         <div class="box" data-aos="fade-down" data-aos-delay="600"></div>
         <div class="box" data-aos="fade-down" data-aos-delay="900"></div>
 
